@@ -6,12 +6,14 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App-container">
       <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Event Countdown Timer Application</p>
       </div>
-      <div className="App-body"></div>
+      <div className="App-body">
+        
+      </div>
       <div className="App-footer">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

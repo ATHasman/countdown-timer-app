@@ -1,35 +1,25 @@
 /** @format */
 
-.App {
-  text-align: center;
-  height: 100vh;
+.App-container {
+  min-height: 100vh;
   position: relative;
 }
+
+/* React Logo & Links  */
 
 .App-logo {
   height: 5vmin;
   pointer-events: none;
 }
 
+.App-link {
+  color: #61dafb;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(4px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -41,11 +31,29 @@
   }
 }
 
+/* App Header Style */
+
+.App-header {
+  height: 6vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(4px + 2vmin);
+  color: white;
+  background-color: #282c34;
+}
+
+/* App Body Style */
+
 .App-body {
   background-color: #282c34;
   padding-bottom: 6vh;
-  height: calc(100vh - 16vh);
+  height: 88vh;
+
 }
+
+/* App Footer Style */
 
 .App-footer {
   background-color: #282c34;
@@ -58,5 +66,5 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(4px + 1vmin);
+  font-size: calc(5px + 1vmin);
 }
